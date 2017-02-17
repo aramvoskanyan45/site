@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>MY WEB PAGE</title>
+		<link href="style.css" rel="stylesheet">	
+	</head>
+	
+	<body onload="digitalWatch()">
+		<!--HEADER-->
+		<div id="container_flex">
+			<header id="header">
+				<div id="logo">
+					<a href="index.html"><img src="image/logo.png" alt="logo" width="102" height="120"></a>
+				</div>
+				<div id="logo_text">
+					<h1>FLEX</h1><p>films</p>
+				</div>
+				
+				<div id="digitalWatch"></div>
+				
+				<div id="login_popup">
+					<div id="popup">
+						<form name="form" id="popup_form">
+							<label>username:
+								<input type="text" name="username" maxlength="10" placeholder="name" id="username">
+							</label>
+							<label>password:
+								<input type="password" name="password" maxlength="10" placeholder="password" id="password">
+							</label>
+							<div id="send">
+								<input type="submit" name="submit" value="send" id="send1">
+							</div>
+							<div id="remember">remember
+								<input type="checkbox" name="checkbox" value="remember">
+							</div>
+						</form>
+						<div id="close_popup"></div>
+					</div>
+				</div>
+					
+				<div id="text">
+					<a href="register/register.html"><input type="button" value="REGISTER" name="button" id="register_small"></a>
+					<a href="register/register.html"><h2><input type="button" value="REGISTER" name="button" id="register"></h2></a>
+					<input type="button" value="LogIn" name="button" id="login">
+				</div>
+			</header>
+			<!--MENU-->
+			<button id="menu_init">MENU</button>
+			<div id="wrapper">
+				<nav id="menu">
+					<ul>
+						<li><a href="#">HOME</a>
+							<ul class="drop-menu menu1">
+								<li><a href="#">FREE</a></li>
+								<li><a href="#">PAYED</a></li>
+								<li><a href="#">CREDIT CARD</a></li>
+								<li><a href="#">CHARGE</a></li>
+							</ul>
+						</li>
+						
+						<li><li><a href="#">FILMS</a>
+							<ul class="drop-menu menu2">
+								<li><a href="#">3D</a></li>
+								<li><a href="#">RUSSIAN</a></li>
+								<li><a href="#">SOVIET UNION</a></li>
+								<li><a href="#">AMERICAN</a></li>
+								<li><a href="#">NEW</a></li>
+							</ul>
+						</li>
+						
+						<li><li><a href="#">TV SERIES</a>
+							<ul class="drop-menu menu3">
+								<li><a href="#">ARMENIAN</a></li>
+								<li><a href="#">BRAZILIAN</a></li>
+								<li><a href="#">RUSSIAN</a></li>
+								<li><a href="#">LOVE STORIES</a></li>
+								<li><a href="#">NEW</a></li>
+							</ul>
+						</li>
+						
+						<li><li><a href="#">CARTOONS</a>
+							<ul class="drop-menu menu4">
+								<li><a href="#">0+</a></li>
+								<li><a href="#">TOLDDERS</a></li>
+								<li><a href="#">TEENAGERS</a></li>
+								<li><a href="#">DEVELOPING</a></li>
+								<li><a href="#">MUSICLE</a></li>
+							</ul>
+						</li>
+						
+						<li><li><a href="#">ABOUT US</a>
+							<ul class="drop-menu menu5">
+								<li><a href="#">FOUNDATION</a></li>
+								<li><a href="#">MISSION</a></li>
+								<li><a href="#">FEEDBACK</a></li>
+								<li><a href="#">PARTNERS</a></li>
+								<li><a href="#">ADVANTAGE</a></li>
+							</ul>
+						</li>
+					
+						<li><li><a href="#">CONTACT</a>
+							<ul class="drop-menu menu6">
+								<li><a href="#">EMAIL ADDRESS</a></li>
+								<li><a href="#">PHONE</a></li>
+							</ul>
+						</li>
+					</ul>	
+				</nav>
+			</div>
+			<!--MAIN_CONTENT-->
+				<button id="left_contentButton">CATEGORIES</button>
+				<button id="right_contentButton">YEAR</button>
+			<div id="main_content">
+				<section id="left_content">
+					<nav id="nav_first">
+						<ul>
+							<li><p>CATEGORIES</p></li>
+							<li><a href="https://www.ivi.ru/movies/boeviki" target="_blank">Militants</a></li>
+							<li><a href="https://www.ivi.ru/movies/voennye" target="_blank">Military</a></li>
+							<li><a href="https://www.ivi.ru/movies/detective" target="_blank">Detectives</a></li>
+							<li><a href="https://www.ivi.ru/movies/dlya_vsej_semi" target="_blank">For the family</a></li>
+							<li><a href="https://www.ivi.ru/movies/detskiy" target="_blank">For children</a></li>
+							<li><a href="https://www.ivi.ru/movies/documentary" target="_blank">Documentary</a></li>
+							<li><a href="https://www.ivi.ru/movies/drama" target="_blank">Drama</a></li>
+							<li><a href="https://www.ivi.ru/movies/istoricheskie" target="_blank">History</a></li>
+							<li><a href="https://www.ivi.ru/movies/comedy" target="_blank">Comedy</a></li>
+							<li><a href="https://www.ivi.ru/movies/crime" target="_blank">Crime</a></li>
+							<li><a href="https://www.ivi.ru/movies/melodramy" target="_blank">Melodrama</a></li>
+							<li><a href="https://www.ivi.ru/movies/misticheskie" target="_blank">Mystical</a></li>
+							<li><a href="https://www.ivi.ru/movies/adventures" target="_blank">Adventure</a></li>
+							<li><a href="https://www.ivi.ru/movies/thriller" target="_blank">Thriller</a></li>
+							<li><a href="https://www.ivi.ru/movies/horror" target="_blank">Horror</a></li>
+							<li><a href="https://www.ivi.ru/movies/fantastika" target="_blank">Fantastic</a></li>
+							<li><a href="https://www.ivi.ru/movies/fentezi" target="_blank">Fantasy</a></li>
+						</ul>
+					</nav>
+				</section>
+					<input class="button_left_img" type="button" value="back">
+				<section id="center">
+					<div class="slider_item item" id="slider_item1">
+						<div class="slider_text">
+							<p>BEST FILMS</p>
+							<a href="http://filmix.me" target="_blank">watch online</a>
+						</div>
+					</div>
+					
+					<div class="slider_item" id="slider_item2">
+						<div class="slider_text">
+							<p>BEST FILMS</p>
+							<a href="http://filmix.me" target="_blank">watch online</a>
+						</div> 
+					</div>
+					
+					<div class="slider_item" id="slider_item3">
+						<div class="slider_text">
+							<p>BEST FILMS</p>
+							<a href="http://filmix.me" target="_blank">watch online</a>
+						</div>
+					</div>
+					
+					<div class="slider_item" id="slider_item4">
+						<div class="slider_text">
+							<p>BEST FILMS</p>
+							<a href="http://filmix.me" target="_blank">watch online</a>
+						</div>
+					</div>
+					
+					<div class="slider_item" id="slider_item5">
+						<div class="slider_text">
+							<p>BEST FILMS</p>
+							<a href="http://filmix.me" target="_blank">watch online</a>
+						</div>
+					</div>
+					
+					<div class="slider_item" id="slider_item6">
+						<div class="slider_text">
+							<p>BEST FILMS</p>
+							<a href="http://filmix.me" target="_blank">watch online</a>
+						</div>
+					</div>
+					
+					<div class="slider_item" id="slider_item7">
+						<div class="slider_text">
+							<p>BEST FILMS</p>
+							<a href="http://filmix.me" target="_blank">watch online</a>
+						</div>
+					</div>
+				</section>
+					<input class="button_right_img" type="button" value="next">
+				<section id="right_content">
+					<div id="nav_second">
+						<ul>
+							<li><p>YEAR</p></li>
+							<li><a href="http://kinogo-online.net/load/god/filmy_2017/29" target="_blank">2017</a></li>
+							<li><a href="http://hdkinomir.com/filmy-2016-goda/" target="_blank">2016</a></li>
+							<li><a href="http://hdkinomir.com/filmy-2015-goda/" target="_blank">2015</a></li>
+							<li><a href="http://hdkinomir.com/filmy-2014-goda/" target="_blank">2014</a></li>
+							<li><a href="http://hdkinomir.com/filmy-2013-goda/" target="_blank">2013</a></li>
+							<li><a href="http://kinogo.club/filmy_2012/" target="_blank">2012</a></li>
+							<li><a href="http://kinoblog.tv/years/2008to2017/" target="_blank">2008-2011</a></li>
+							<li><a href="http://kinoblog.tv/years/2002to2007/" target="_blank">2002-2007</a></li>
+							<li><a href="http://kinoblog.tv/years/1995to2001/" target="_blank">1995-2001</a></li>
+							<li><a href="http://kinoblog.tv/years/1985to1994/" target="_blank">1985-1994</a></li>
+							<li><a href="http://kinoblog.tv/years/1971to1984/" target="_blank">1971-1984</a></li>
+						</ul>
+					</div>
+				</section>
+			</div>
+			<!--SECOND_CONTENT-->
+			<div id="secondary_content">
+					<h2>TOP 3 FILMS OF 2017</h2>
+				<div class="text1">
+					<h3>Attraction</h3>
+					<p><i>... As soon as it became known, was shot down over Moscow is an unidentified object, possibly of extraterrestrial origin. Most of the capital Chertanov cordoned off, to the crash site pulled together representatives of the power structures, the question of the evacuation of local residents. According to our source in the Defense Ministry, a special committee is now trying to get in touch with so-called "guests". At this moment we are preparing a special edition of the news and developments you will find the first ...</i></p>
+					<a href="https://www.kinopoisk.ru/film/840250/">watch now</a>
+				</div>
+				<div class="text1">
+					<h3>XXx: World Domination</h3>
+					<p><i>Xander Cage returns after years of self-imposed exile and into the mad whirl of events. He assembles a team of crazy adventurers, with whom he has to find the most powerful secret weapon - "Pandora's Box". We must act quickly: the development of hunting dangerous thugs. The stakes in the deadly game are increased when it turns out that the world's governments are involved in a bloody conspiracy, but at stake - the fate of the world.</i></p>
+					<a href="https://www.kinopoisk.ru/film/428709/">watch now</a>
+				</div>
+				
+				<div id="scroll_popup">
+					<form name="form">
+						<div id="scroll_popup_text">
+							<p>DO YOU LIKE THIS SITE ?</p>
+						</div>
+						<div id="ok">
+							<input type="submit" name="submit" value="ok" id="ok1">
+						</div>
+					</form>
+					<div id="close_scroll_popup"></div>
+				</div>
+				
+				<div class="text1">
+					<h3>A sleepless night</h3>
+					<p><i>And during the next operation he ran afoul of the influential criminal. But as you know, the people of this level will never forgive the deception, and especially the loss of money, anyone who decides to harm their business, will be punished. that's just it did not take into account the fact that not only can it be affected by their actions, but also his family. It turned out to be the son of the main character in the attention of criminals.</i></p>
+					<a href="https://www.kinopoisk.ru/film/629863/" target="_blank">watch now</a>
+				</div>
+			</div>
+			<!--FOOTER-->
+			
+			<footer id="footer">
+				<img src="image/logo_footer.png" alt="logo_footer">
+				
+				<div id="footer_left">
+					<p><i>&copy Flex 2017</i></p>
+				</div>
+				
+				<div id="footer_center">
+					<p><i>region: Armenia</i></p>
+				</div>
+				
+				<div id="footer_right">
+					<a href="#"><p><i>contact us</i></p></a>
+				</div>
+			</footer>
+			
+			<div id="overpage"></div>
+			<div id="scroll_overpage"></div>
+		</div>
+		<script src="jquery-3.1.1.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>	
+	

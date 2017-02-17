@@ -1,0 +1,195 @@
+body{
+	background:#A0DFFF;
+}
+
+#container{
+	width:100%;
+	margin:0 auto;
+}
+
+#logo_menu{
+	background:#FFBEBE;
+	border-radius: 21px;
+	overflow:auto;
+}
+	
+h1 a{
+	float:left;
+	font-size:60px;
+	color:#FF3240;
+	box-shadow: 12px 11px 66px;
+	text-decoration:none;
+}
+
+h1{
+	display:inline-block;
+}
+
+ul li{
+	float:left;
+	list-style:none;
+	margin-right: 50px;
+	font-size: 35px;
+}
+
+ul{
+	float:right;
+	display:inline-block;
+	margin-top: 40px;
+	font-size: 20px;
+}
+
+ul li a{
+	text-decoration:none;
+	color:#FF5FAF;
+}
+
+ul li a:hover{
+	font-size:45px;
+}
+
+@font-face{
+	font-family:"BurgerFrogDEMO.otf";
+	src:url("BurgerFrogDEMO.otf");
+}
+
+ul li a{
+	font-family:"BurgerFrogDEMO.otf";
+}
+
+@font-face{
+	font-family:"vegacuteDEMO.otf";
+	src:url("vegacuteDEMO.otf");
+}
+
+h1{
+	font-family:"vegacuteDEMO.otf";
+}
+
+.image_content{
+	height:700px; 
+	background-image:url("foto/ray.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:center -752px; 
+	background-size:100%; 
+	border-radius:15px; 
+	position:relative;
+}
+
+@font-face{
+	font-family:"DKAardvarkDreams.otf";
+	src:url("DKAardvarkDreams.otf");
+}
+
+.main_content p{
+	width: 370px;
+    font-size: 18px;
+	position: absolute;
+	margin-left: 1100px;
+	font-family:"DKAardvarkDreams.otf";
+	color:#00AF00;
+	position:absolute;
+}
+
+.content{
+	
+	height:250px;
+	background-image:url("foto/4514_html_mb5cb5c8.png");
+	background-repeat:no-repeat;
+	background-position:center 0px;
+	background-size:20%;
+	border-radius:15px;
+	margin-top:-272px;
+	
+}
+
+.content p{
+	width:240px;
+	font-size:40px;
+	text-align:center;
+	margin-left: 825px;
+	color:#FF3240;
+}
+
+#foto1{
+	float:left;
+	
+}
+
+#foto2{
+	float:right;
+	
+}
+
+.main_content{
+	overflow:auto;
+}
+
+ol{
+	margin-left: 45%;
+}
+
+ol li a{
+	text-decoration:none;
+	color:#FF00D4;
+	text-shadow: 9px 15px 22px;
+	word-spacing:5px;
+}
+
+ol li{
+	line-height:250%;
+}
+
+ol li a:hover{
+	font-size:45px;
+}
+
+#footer p{
+	color: #00AF00;
+	text-align: center;
+	font-size: 23px;
+}
+
+@font-face{
+	font-family:"DKAardvarkDreams.otf";
+	src:url("DKAardvarkDreams.otf");
+}
+
+#footer p a{
+	font-size:30px;
+	font-family:"DKAardvarkDreams.otf";
+}
+
+#footer p a:hover{
+	font-size:35px;
+}
+
+@madia screen and (max-width: 470px){
+	h1 a{
+		font-size:10px;
+	}
+}
+
+@madia screen and (max-width: 2670px){
+	.main_content p{
+		font-size:10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>MY WEB PAGE</title>
+		<link href="register.css" rel="stylesheet">
+	</head>
+	
+	<body>
+	<h1>REGISTER</h1>
+		<form action="register.html" method="get"name="register">
+			<fieldset>
+				<legend>NAME</legend>
+				<div>
+					<label>first name
+						<input type="text" name="first_name" maxlength="10" placeholder="name">
+					</label>
+				</div>
+				<div>
+					<label id="last_name">last name
+						<input type="text" name="last_name" maxlength="10" placeholder="second name">
+					</label>
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>LOGIN</legend>
+				<div>
+					<label>Email
+						<input type="email" name="email" placeholder="email"  id="email">
+					</label>
+				</div>
+				<div>
+					<label id="password">Password
+						<input type="password" name="password" maxlength="10" placeholder="password">
+					</label>
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>PHONE NUMBER</legend>
+				<div>
+					<label>
+						<input type="number" name="phone" placeholder="+374">
+					</label>
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>SEX</legend>
+				<div>	
+					<label>
+						<input type="radio" value="male" name="gender">
+						male
+					</label>
+				</div>
+				<div>
+					<label>
+						<input type="radio" value="female" name="gender">
+						female
+					</label>
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>DATE OF BIRTH</legend>
+				<div class="birth_day">day
+					<select name="day" id="birth_day_input1">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+						<option>17</option>
+						<option>18</option>
+						<option>19</option>
+						<option>20</option>
+						<option>21</option>
+						<option>22</option>
+						<option>23</option>
+						<option>24</option>
+						<option>25</option>
+						<option>26</option>
+						<option>27</option>
+						<option>28</option>
+						<option>29</option>
+						<option>30</option>
+						<option>31</option>
+					</select>
+				</div>
+				
+				<div class="birth_day" id="birth_day1">month
+					<select name="month">
+						<option>January</option>
+						<option>February </option>
+						<option>March</option>
+						<option>April</option>
+						<option>May</option>
+						<option>June</option>
+						<option>July</option>
+						<option>August</option>
+						<option>September</option>
+						<option>October</option>
+						<option>November</option>
+						<option>December</option>
+					</select>
+				</div>
+
+				<div class="birth_day" id="birth_day2">year
+					<select name="year" id="birth_day_input2">
+						<option>1986</option>
+						<option>1987</option>
+						<option>1988</option>
+						<option>1989</option>
+						<option>1990</option>
+						<option>1991</option>
+						<option>1992</option>
+						<option>1993</option>
+						<option>1994</option>
+						<option>1995</option>
+						<option>1996</option>
+						<option>1997</option>
+						<option>1998</option>
+						<option>1999</option>
+						<option>2000</option>
+						<option>2001</option>
+						<option>2002</option>
+						<option>2003</option>
+						<option>2004</option>
+						<option>2005</option>
+						<option>2006</option>
+						<option>2007</option>
+						<option>2008</option>
+						<option>2009</option>
+						<option>2010</option>
+						<option>2011</option>
+						<option>2012</option>
+						<option>2013</option>
+						<option>2014</option>
+						<option>2015</option>
+						<option>2016</option>
+						<option>2017</option>
+					</select>
+				</div>	
+			</fieldset>	
+			
+			<fieldset>
+				<legend>YOUR TEXT</legend>
+				<div>
+					<textarea name="text" cols="50" rows="10" id="textarea"></textarea>
+				</div>			
+			</fieldset>	
+			
+				<div>
+					<input type="submit" name="submit" value="confirm" id="submit">
+				</div>
+				<div>
+					<input type="reset" name="reset" value="cancel" id="cancel" onclick="window.close()">
+				</div>
+				<div id="checkbox">
+					<input type="checkbox" name="acsept_check">Accept
+				</div>
+		</form>
+		<script src="register.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
